@@ -1,14 +1,8 @@
-/* EXTRA 7
- Write a piece of code for increasing
- all the numerical values in a array by 1.
-*/
-
-let arr=[1, 2, 3]
-let add1=[]
+let arr=[1,2,3,4,5,6,7,8]
+//tutti gli elemnti devono essere 1
 
 for(i=0; i<arr.length; i++){
-    arr[i]++
+    arr[i]=1
+    
 }
-
 console.log(arr)
-

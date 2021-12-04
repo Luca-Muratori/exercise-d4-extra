@@ -101,7 +101,15 @@ console.log(arr)
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let arr =["strive", "is", "great"]
+
+for (i=0; i<arr.length; i++){
+    arr[i]=arr[i].length;  
+}
+                    
+console.log(arr)
+*/
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!

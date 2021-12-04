@@ -86,7 +86,15 @@ console.log(str2)
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let arr=[1, 2, 3]
+
+for(i=0; i<arr.length; i++){
+    arr[i]++
+}
+
+console.log(arr)
+*/
 
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.

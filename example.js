@@ -1,22 +1,14 @@
-/* EXTRA 6
- Write a piece of code for
-  removing all the vowels from a string.
+/* EXTRA 7
+ Write a piece of code for increasing
+ all the numerical values in a array by 1.
 */
 
-let str="Hello, my name is Luca and I'm learning JavaScript"
-let str2=''
+let arr=[1, 2, 3]
+let add1=[]
 
-for(let i=0;i<str.length; i++){
-    switch (str[i]){
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'o':
-        case 'u':
-            break; 
-        default:
-            str2+=str[i];
-    }
+for(i=0; i<arr.length; i++){
+    arr[i]++
 }
 
-console.log(str2)
+console.log(arr)
+

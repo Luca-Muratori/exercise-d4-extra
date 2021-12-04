@@ -25,7 +25,11 @@ console.log(Math.max(...a));
  Write a piece of code for getting the minimum numerical value from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let a=[ 6, 89 ]
+
+console.log(Math.min(...a));
+*/
 
 /* EXTRA 4
  Write a piece of code for getting only even numerical values from an array.

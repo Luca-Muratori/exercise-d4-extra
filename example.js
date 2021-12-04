@@ -1,14 +1,14 @@
-//EXTRA 4
-//Write a piece of code for getting only 
-//even numerical values from an array.
+/* EXTRA 5
+ Write a piece of code for deleting
+ only even entries from an array.
+*/
 
 
-let a=[1, 2, 4, 5, 7, 8, 9, 11, 12]
-let even=[]
-
-for(i=0; i<a.length; i++){
-    if(a[i]%2===0){
-        even.push(a[i]);
+let arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for(let i=0; i<arr.length; i++){
+    if (arr[i]%2===0){
+        arr.splice(i, 1);
+        
     }
 }
-console.log(even)
+console.log(arr)

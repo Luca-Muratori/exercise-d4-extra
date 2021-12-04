@@ -65,7 +65,22 @@ console.log(arr)
  Write a piece of code for removing all the vowels from a string.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+for(let i=0;i<str.length; i++){
+    switch (str[i]){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            break; 
+        default:
+            str2+=str[i];
+    }
+}
+
+console.log(str2)
+*/
 
 /* EXTRA 7
  Write a piece of code for increasing all the numerical values in a array by 1.

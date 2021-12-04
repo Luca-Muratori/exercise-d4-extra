@@ -1,14 +1,22 @@
-/* EXTRA 5
- Write a piece of code for deleting
- only even entries from an array.
+/* EXTRA 6
+ Write a piece of code for
+  removing all the vowels from a string.
 */
 
+let str="Hello, my name is Luca and I'm learning JavaScript"
+let str2=''
 
-let arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-for(let i=0; i<arr.length; i++){
-    if (arr[i]%2===0){
-        arr.splice(i, 1);
-        
+for(let i=0;i<str.length; i++){
+    switch (str[i]){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            break; 
+        default:
+            str2+=str[i];
     }
 }
-console.log(arr)
+
+console.log(str2)
